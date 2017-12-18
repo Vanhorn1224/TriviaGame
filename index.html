@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script> 	
+</head>
+<body>
+	<div id = "title">
+
+		<h1>Cwboys Trivia</h1>
+		<p class = "timer">Timer: <span id = "timer">10</span></p>
+	</div>
+
+	<div id = "questions">
+
+		<div class = "question" id = "Q1">1. Who is the current QB?<br>	
+
+			<input type="radio" name="Q1">Romo</input>
+				<br>
+			<input type="radio" name="Q1" value = "correct">Prescott</input>
+				<br>
+			<input type="radio" name="Q1">Aikman</input>
+		</div>
+		<div class = "question" id = "Q2">2. What is the Cowboy's logo?<br>
+
+			<input type="radio" name="Q2" value = "correct">Star</input>
+				<br>
+			<input type="radio" name="Q2">Cowboy</input>
+				<br>
+			<input type="radio" name="Q2">Boot</input>
+	</div>
+
+		<div class = "question" id = "Q3">3. How many Superbowl wins do the Cowboys have?<br>
+
+			<input type="radio" name="Q3">1</input>
+				<br>
+			<input type="radio" name="Q3">7</input>
+				<br>
+			<input type="radio" name="Q3" value = "correct">5</input>
+		</div>
+
+	</div>
+
+	<div id = "results"></div>
+
+	<script type="text/javascript" src="assets/javascript/app.js"></script>
+	
+</body>
+</html>
